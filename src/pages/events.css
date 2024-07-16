@@ -18,8 +18,8 @@
   padding: 10px 20px;
   cursor: pointer;
   background-color: #101720;
-  color: #1763bf;
-  border: 2px solid #1763bf;
+  color: #5aefe7;
+  border: 2px solid #5aefe7;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .toggle-button-container button.active {
-  background-color: #1763bf;
+  background-color: #5aefe7;
   color: #101720;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .event-card {
-  background-color: #1763bf;
+  background-color: #5aefe7;
   color: #101720;
   width: 95%;
   border-radius: 8px;
@@ -81,12 +81,13 @@
     0 6px 20px 0 rgba(90, 239, 231, 0.19);
 }
 
+
 .read-more-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #101720;
-  color: #1763bf;
-  border: 2px solid #1763bf;
+  color: #5aefe7;
+  border: 2px solid #5aefe7;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -98,8 +99,8 @@
   display: inline-block;
   padding: 13px 20px;
   background-color: #101720;
-  color: #1763bf;
-  border: 2px solid #1763bf;
+  color: #5aefe7;
+  border: 2px solid #5aefe7;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -111,7 +112,7 @@
 
 .register-button:hover,
 .read-more-button:hover {
-  background-color: #1763bf;
+  background-color: #5aefe7;
   color: #101720;
 }
 
@@ -120,7 +121,7 @@
 .carousel-item {
   text-align: center;
   color: #101720;
-  background-color: #1763bf;
+  background-color: #5aefe7;
   border-radius: 8px;
   padding: 1rem;
   padding-bottom: 2rem;
@@ -187,8 +188,7 @@
 .carousel .slide {
   background: none;
   border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(90, 239, 231, 0.2),
-    0 6px 20px 0 rgba(90, 239, 231, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(90, 239, 231, 0.2),0 6px 20px 0 rgba(90, 239, 231, 0.19);
   transition: none; /* No hover effect */
 }
 
